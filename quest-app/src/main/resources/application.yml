@@ -1,0 +1,8 @@
+spring:
+    datasource:
+      url: jdbc:mysql://localhost:3306/quest-app?useSSL=false
+      username: root
+      password: Mert1903
+    jpa:
+      hibernate:
+        ddl-auto: update
