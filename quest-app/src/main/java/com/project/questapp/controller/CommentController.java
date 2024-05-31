@@ -35,12 +35,6 @@ public class CommentController {
         return commentService.createOneComment(newCommentCreate);
     }
 
-    @PutMapping("/{commentId}")
-    public Comment updateOneComment(@PathVariable Long commentId,
-                                    @RequestBody CommentUpdateRequest commentUpdateRequest){
-        return commentService.updateOneCommentById(commentId,commentUpdateRequest);
-    }
-
 
 
 
